@@ -8,7 +8,6 @@ Institution: Coimbatore Institute of Engineering and Technology
 
 Managing student academic data is an essential process in every educational institution.
 Static data storage like spreadsheets becomes inefficient when handling large and dynamic datasets.
-
 This project demonstrates a Student Academic Record Management System implemented using a Doubly Linked List (DLL) to efficiently perform insertion, deletion, searching, and data traversal operations.
 
 OBJECTIVES
@@ -19,23 +18,23 @@ OBJECTIVES
 
    3. Provide reverse traversal and backup functionalities using the doubly linked list.
 
-   4.Calculate the average GPA of all recorded students.
+   4. Calculate the average GPA of all recorded students.
 
 FEATURES IMPLEMENTED
-OPERATION	            DESCRIPTION
-Insert New Record	    Dynamically adds a new student (ID, Name, Department, GPA).
-Delete Record	        Removes a student by ID.
-Search Record	        Finds a student by ID or Name.
-Display Records  	    Displays all records in order of entry.
-Reverse Display	        Traverses and displays the list in reverse using prev pointers.
-Clone List    	        Creates a backup copy of all student records.
-Display Backup	        Shows the cloned list (for verification).
-Calculate Average GPA	Computes average GPA of all stored records.
+* OPERATION	            *  DESCRIPTION
+1.Insert New Record	  -  Dynamically adds a new student (ID, Name, Department, GPA).
+2.Delete Record	      -  Removes a student by ID.
+3.Search Record	      -  Finds a student by ID or Name.
+4.Display Records  	  -  Displays all records in order of entry.
+5.Reverse Display	    -  Traverses and displays the list in reverse using prev pointers.
+6.Clone List    	     -  Creates a backup copy of all student records.
+7.Display Backup	     -  Shows the cloned list (for verification).
+8.Calculate Average GPA-	Computes average GPA of all stored records.
 
 DATA STRUCTURE USED
-    Doubly Linked List
-    Each node contains:
-
+   * Doubly Linked List
+   * Each node contains:
+ 
 struct Student {
     int id;
     char name[50];
@@ -77,20 +76,20 @@ SAMPLE OUTPUT(TEXT)
 8. Calculate Average GPA
 9. Exit
 ====================================================
-Enter your choice: 1
-Enter Student ID: 101
-Enter Student Name: Alice
-Enter Department: CSE
-Enter GPA: 8.9
-Student record added successfully!
+.Enter your choice: 1
+.Enter Student ID: 101
+.Enter Student Name: Alice
+.Enter Department: CSE
+.Enter GPA: 8.9
+.Student record added successfully!
 ====================================================
-Enter your choice: 4
+.Enter your choice: 4
 ===== Student Records =====
-ID: 101
-Name: Alice
-Department: CSE
-GPA: 8.90
+.ID: 101
+.Name: Alice
+.Department: CSE
+.GPA: 8.90
 ====================================================
-Enter your choice: 8
-Average GPA of all students: 8.35
+.Enter your choice: 8
+.Average GPA of all students: 8.35
 
