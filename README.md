@@ -1,8 +1,8 @@
 # Student Academic Record Management System
 
-Mini Project – Arrays and Linked Lists 
-Department: Computer Science and Engineering
-Institution: Coimbatore Institute of Engineering and Technology
+*Mini Project – Arrays and Linked Lists 
+*Department: Computer Science and Engineering
+*Institution: Coimbatore Institute of Engineering and Technology
 
  PROJECT OVERVIEW
 
@@ -21,7 +21,7 @@ OBJECTIVES
    4. Calculate the average GPA of all recorded students.
 
 FEATURES IMPLEMENTED
-* OPERATION	            *  DESCRIPTION
+
 1.Insert New Record	  -  Dynamically adds a new student (ID, Name, Department, GPA).
 2.Delete Record	      -  Removes a student by ID.
 3.Search Record	      -  Finds a student by ID or Name.
@@ -37,11 +37,17 @@ DATA STRUCTURE USED
  
 struct Student {
     int id;
+	
     char name[50];
+	
     char department[50];
+	
     float gpa;
+	
     struct Student *next;
+	
     struct Student *prev;
+	
 };
 
 SYSTEM DESIGN
@@ -76,20 +82,20 @@ SAMPLE OUTPUT(TEXT)
 8. Calculate Average GPA
 9. Exit
 ====================================================
-.Enter your choice: 1
-.Enter Student ID: 101
-.Enter Student Name: Alice
-.Enter Department: CSE
-.Enter GPA: 8.9
-.Student record added successfully!
+Enter your choice: 1
+Enter Student ID: 101
+Enter Student Name: Alice
+Enter Department: CSE
+Enter GPA: 8.9
+Student record added successfully!
 ====================================================
-.Enter your choice: 4
+Enter your choice: 4
 ===== Student Records =====
-.ID: 101
-.Name: Alice
-.Department: CSE
-.GPA: 8.90
-====================================================
-.Enter your choice: 8
-.Average GPA of all students: 8.35
+ID: 101
+Name: Alice
+Department: CSE
+GPA: 8.90
+===================================================
+Enter your choice: 8
+Average GPA of all students: 8.35
 
