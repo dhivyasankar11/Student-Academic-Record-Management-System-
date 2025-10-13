@@ -88,23 +88,23 @@ SAMPLE OUTPUT
 ========== STUDENT ACADEMIC RECORD SYSTEM ==========
 
 1. Insert New Student Record
-2. 
-3. Delete Student by ID
-4. 
-5. Search Student (by ID or Name)
-6. 
-7. Display All Records
-8. 
-9. Reverse Display (Using Doubly Linked List)
-10. 
-11. Clone the List (Backup)
-12. 
-13. Display Cloned Backup
-14. 
-15. Calculate Average GPA
-16. 
-17. Exit
-18. 
+ 
+2. Delete Student by ID
+ 
+3. Search Student (by ID or Name)
+ 
+4. Display All Records
+ 
+5. Reverse Display (Using Doubly Linked List)
+   
+6. Clone the List (Backup)
+ 
+7. Display Cloned Backup
+ 
+8. Calculate Average GPA
+ 
+9. Exit
+
 ====================================================
 
 Enter your choice: 1
@@ -169,6 +169,7 @@ Department: CSE
 GPA: 8.90
 
 
+
 ID: 102
 
 Name: Bob
@@ -176,6 +177,7 @@ Name: Bob
 Department: ECE
 
 GPA: 7.80
+
 
 
 ID: 103
@@ -196,6 +198,7 @@ Search by: 1. ID  2. Name
 Enter choice: 1
 
 Enter Student ID: 102
+
 
 
 Record Found:
@@ -236,6 +239,7 @@ Department: CSE
 GPA: 8.90
 
 
+
 ID: 103
 
 Name: Carol
@@ -260,6 +264,7 @@ Name: Carol
 Department: IT
 
 GPA: 9.10
+
 
 
 ID: 101
@@ -293,6 +298,7 @@ Name: Alice
 Department: CSE
 
 GPA: 8.90
+
 
 
 ID: 103
