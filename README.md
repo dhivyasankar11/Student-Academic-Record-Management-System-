@@ -26,17 +26,26 @@ OBJECTIVES
 FEATURES IMPLEMENTED
 
 1.Insert New Record	  -  Dynamically adds a new student (ID, Name, Department, GPA).
+
 2.Delete Record	      -  Removes a student by ID.
+
 3.Search Record	      -  Finds a student by ID or Name.
+
 4.Display Records  	  -  Displays all records in order of entry.
+
 5.Reverse Display	    -  Traverses and displays the list in reverse using prev pointers.
+
 6.Clone List    	     -  Creates a backup copy of all student records.
+
 7.Display Backup	     -  Shows the cloned list (for verification).
+
 8.Calculate Average GPA-	Computes average GPA of all stored records.
+
 
 DATA STRUCTURE USED
    * Doubly Linked List
    * Each node contains:
+
  
 struct Student {
 
