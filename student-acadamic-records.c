@@ -132,7 +132,7 @@ void deleteStudent() {
         temp->next->prev = temp->prev;
 
     free(temp);
-    printf("\n✅ Student record deleted successfully!\n");
+    printf("\n Student record deleted successfully!\n");
 }
 
 // Function to search for a student by ID or Name
@@ -260,3 +260,4 @@ void displayClonedList(struct Student *clonedHead) {
         temp = temp->next;
     }
 }
+
