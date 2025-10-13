@@ -1,8 +1,11 @@
 # Student Academic Record Management System
 
-*Mini Project – Arrays and Linked Lists 
-*Department: Computer Science and Engineering
-*Institution: Coimbatore Institute of Engineering and Technology
+Mini Project – Arrays and Linked Lists 
+
+Department: Computer Science and Engineering
+
+Institution: Coimbatore Institute of Engineering and Technology
+
 
  PROJECT OVERVIEW
 
@@ -36,6 +39,7 @@ DATA STRUCTURE USED
    * Each node contains:
  
 struct Student {
+
     int id;
 	
     char name[50];
@@ -49,6 +53,7 @@ struct Student {
     struct Student *prev;
 	
 };
+
 
 SYSTEM DESIGN
 
@@ -83,19 +88,35 @@ SAMPLE OUTPUT(TEXT)
 9. Exit
 ====================================================
 Enter your choice: 1
+
 Enter Student ID: 101
+
 Enter Student Name: Alice
+
 Enter Department: CSE
+
 Enter GPA: 8.9
+
 Student record added successfully!
+
 ====================================================
+
 Enter your choice: 4
+
 ===== Student Records =====
+
 ID: 101
+
 Name: Alice
+
 Department: CSE
+
 GPA: 8.90
+
 ===================================================
+
 Enter your choice: 8
+
 Average GPA of all students: 8.35
+
 
