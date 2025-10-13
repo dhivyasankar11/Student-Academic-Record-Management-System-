@@ -83,19 +83,30 @@ cloneList() – Clones the full list for backup.
 calculateAverageGPA() – Calculates and displays average GPA.
 
 
-SAMPLE OUTPUT(TEXT)
+SAMPLE OUTPUT
 
 ========== STUDENT ACADEMIC RECORD SYSTEM ==========
+
 1. Insert New Student Record
-2. Delete Student by ID
-3. Search Student (by ID or Name)
-4. Display All Records
-5. Reverse Display (Using Doubly Linked List)
-6. Clone the List (Backup)
-7. Display Cloned Backup
-8. Calculate Average GPA
-9. Exit
+2. 
+3. Delete Student by ID
+4. 
+5. Search Student (by ID or Name)
+6. 
+7. Display All Records
+8. 
+9. Reverse Display (Using Doubly Linked List)
+10. 
+11. Clone the List (Backup)
+12. 
+13. Display Cloned Backup
+14. 
+15. Calculate Average GPA
+16. 
+17. Exit
+18. 
 ====================================================
+
 Enter your choice: 1
 
 Enter Student ID: 101
@@ -106,13 +117,48 @@ Enter Department: CSE
 
 Enter GPA: 8.9
 
-Student record added successfully!
+
+ Student record added successfully!
+ 
+
+====================================================
+
+Enter your choice: 1
+
+Enter Student ID: 102
+
+Enter Student Name: Bob
+
+Enter Department: ECE
+
+Enter GPA: 7.8
+
+
+ Student record added successfully!
+
+====================================================
+
+Enter your choice: 1
+
+Enter Student ID: 103
+
+Enter Student Name: Carol
+
+Enter Department: IT
+
+Enter GPA: 9.1
+
+
+ Student record added successfully!
+ 
 
 ====================================================
 
 Enter your choice: 4
 
+
 ===== Student Records =====
+
 
 ID: 101
 
@@ -122,10 +168,152 @@ Department: CSE
 
 GPA: 8.90
 
-===================================================
+
+ID: 102
+
+Name: Bob
+
+Department: ECE
+
+GPA: 7.80
+
+
+ID: 103
+
+Name: Carol
+
+Department: IT
+
+GPA: 9.10
+
+
+====================================================
+
+Enter your choice: 3
+
+Search by: 1. ID  2. Name
+
+Enter choice: 1
+
+Enter Student ID: 102
+
+
+Record Found:
+
+ID: 102
+
+Name: Bob
+
+Dept: ECE
+
+GPA: 7.80
+
+
+====================================================
+
+Enter your choice: 2
+
+Enter Student ID to delete: 102
+
+
+Student record deleted successfully!
+
+
+====================================================
+
+Enter your choice: 4
+
+
+===== Student Records =====
+
+
+ID: 101
+
+Name: Alice
+
+Department: CSE
+
+GPA: 8.90
+
+
+ID: 103
+
+Name: Carol
+
+Department: IT
+
+GPA: 9.10
+
+
+====================================================
+
+Enter your choice: 5
+
+
+===== Student Records (Reverse Order) =====
+
+
+ID: 103
+
+Name: Carol
+
+Department: IT
+
+GPA: 9.10
+
+
+ID: 101
+
+Name: Alice
+
+Department: CSE
+
+GPA: 8.90
+
+
+====================================================
+
+Enter your choice: 6
+
+
+ Backup list cloned successfully!
+
+====================================================
+
+Enter your choice: 7
+
+
+===== Backup (Cloned) Student Records =====
+
+
+ID: 101
+
+Name: Alice
+
+Department: CSE
+
+GPA: 8.90
+
+
+ID: 103
+
+Name: Carol
+
+Department: IT
+
+GPA: 9.10
+
+
+====================================================
 
 Enter your choice: 8
 
-Average GPA of all students: 8.35
+
+Average GPA of all students: 9.00
 
 
+====================================================
+
+Enter your choice: 9
+
+Exiting... Thank you!
