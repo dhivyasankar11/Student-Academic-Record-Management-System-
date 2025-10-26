@@ -1,77 +1,90 @@
 # Student Academic Record Management System
 
-Objective
+OBJECTIVE
+
 
 To develop a Doubly Linked List-based Student Academic Record Management System that efficiently manages and organizes student data, including GPA tracking, record updates, and list cloning for academic use.
 
-Features
+
+
+FEATURES
+
 
 1.Insert new student records 
 
 
 Add student details such as ID, name, department, and GPA.
 
+
 2.Search student by ID or Name
 
 
 Easily locate student information for verification or updates.
+
 
 3.Delete incorrect or outdated student records
 
 
 Remove invalid entries using the student’s ID.
 
+
 4.Display all student records
 
 
 View all students and their academic details in an organized list.
+
 
 5.Display in reverse order (Doubly Linked List)
 
 
 View records from the latest to the earliest using backward traversal.
 
+
 6.Clone the student list (Backup feature)
 
 
 Create a deep copy of the current student database for safe backup.
+
 
 7.Calculate Average GPA
 
 
 Compute and display the average GPA of all enrolled students.
 
-Data Structure
+
+
+DATA STRUCTURE
+
 
 
 Each student record is represented as a node in a doubly linked list.
 Each node contains:
 
-.Student ID (int)
+1.Student ID (int)
 
 
-.Name (char[50])
+2.Name (char[50])
 
 
-.Department (char[50])
+3.Department (char[50])
 
 
-.GPA (float)
+4.GPA (float)
 
 
-.Pointers:
+5.Pointers:
 
 
-.next → Next student record
+6.next → Next student record
 
 
-.prev → Previous student record
+7.prev → Previous student record
 
 
-.Functionality Overview
+8.Functionality Overview
 
 
-Function	                                       Description
+FUNCTION   -                                    DESCRIPTION
 
 
 insertStudent()-	                              Adds a new student record
@@ -98,7 +111,9 @@ displayClonedList() -                          	Displays the cloned (backup) lis
 calculateAverageGPA()-	                        Calculates and displays the average GPA
 
 
-   Sample Menu (CLI)
+  
+   SAMPLE MENU (CLI)
+
 
    
 ========== STUDENT ACADEMIC RECORD SYSTEM ==========
@@ -138,23 +153,23 @@ calculateAverageGPA()-	                        Calculates and displays the avera
 Enter your choice:
 
 
- Compilation & Execution
+ COMPILATION & EXECUTION:
 
  
- Compile
+ COMPILE
 
  
 gcc student_record.c -o student_record
 
 
 
- Run
+ RUN
 
  
 ./student_record
 
 
- Requirements:
+ REQUIREMENTS:
 
 
 1.GCC Compiler
@@ -162,8 +177,9 @@ gcc student_record.c -o student_record
 
 2.C Standard Library (stdio.h, stdlib.h, string.h)
 
+
  
- Memory Management
+ MEMORY MANAGEMENT
 
 
 .All dynamically allocated memory is properly freed during deletion or program termination.
@@ -174,8 +190,9 @@ gcc student_record.c -o student_record
 
 .Safe handling of pointers during insert, delete, and clone operations.
 
+
  
- Notes
+ NOTES
 
 
 .Input validation ensures correct GPA range (0.0 – 10.0).
@@ -190,7 +207,8 @@ gcc student_record.c -o student_record
 .Searching and displaying are performed in O(n) time complexity.
 
 
- Author
+
+ AUTHOR
 
  
 Dhivya S
@@ -200,4 +218,4 @@ Department of Computer Science engineering
 
 
 
-Batch: YYYY–YYYY
+
